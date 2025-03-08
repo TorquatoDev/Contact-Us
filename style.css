@@ -1,0 +1,456 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+    html, body{
+    width:100%;
+    overflow-x: hidden;
+    }
+
+    #primeira_secao{
+
+        height: 40vh;
+        /* background-color: red; */
+    }
+
+    #imagem_topo_frutas{
+        position: absolute;
+        width: 100%;
+        height: 40vh;
+       /* background-color: yellow; */
+    }
+
+    #imagem_topo_frutas img{
+        width: 100%;
+        height: 40vh;
+    }
+
+    #topo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        height: 5vh;
+        /* background-color: red; */
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8%;
+        height: 5vh;
+        /* background-color: aquamarine; */
+        position: relative;
+    }
+
+    #logo h1{
+        color: green;
+        font-size: 35px;
+    }
+
+    #logo span{
+        color: orangered;
+    }
+
+    #menu{
+        width: 50%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content:flex-end;
+    }
+
+   #menu_opcoes{
+    /* background-color: yellow; */
+    width:50%;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+
+   }
+
+   #menu_opcoes a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #545454;
+    /* background-color: red; */
+    height: 4vh;
+   }
+
+   #menu_opcoes a:hover{
+        background-color:#878787;
+        color: black;
+    }
+   
+
+   #ecomerce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 15%;
+    /* background-color: green; */
+   }
+
+   #ecomerce a{
+    color: #545454;
+   }
+
+   .circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70%;
+    border-radius: 50px;
+    background-color: white;
+   }
+
+   #nome_central{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: justify;
+    width: 40%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+   }
+
+   #contatc_central{
+    /* background-color: blue; */
+    width: 40%;
+   }
+
+   #contatc_central h1{
+    font-size: 50px;
+   }
+
+   #nome_central_links{
+    width: 40%;
+    /* background-color: red; */
+   }
+
+   #nome_central_links a{
+    text-decoration: none;
+    color: #545454;
+   }
+
+
+   #secao_dois{
+    height: 90vh;
+    width: 100%;
+   /* background-color: red; */
+   }
+
+   .linha{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+   }
+
+   .linha_um{
+    width:4vw;
+    height: 0.2vh;
+    background-color: orangered;
+   }
+
+   .linha_dois{
+    width: 8vw;
+    height: 0.2vh;
+    background-color: green;
+   }
+
+   #nome_central_segunda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    width: 100%;
+    height: 10vh;
+   }
+
+   #nome_central_segunda h1{
+    font-size: 40px;
+   }
+
+   #texto_segunda_{
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    /* background-color: blue; */
+   }
+
+   #texto_contact{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    /* background-color: rosybrown; */
+    display: flex;
+    height: 6vh;
+   }
+
+   #box_segunda_secao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 65vh;
+    /* background-color: yellow; */
+   }
+
+   #part_verde{
+    width: 25%;
+    height: 50vh;
+    background-color: green;
+    padding-left: 2vw;
+    padding-top: 4vh;
+    
+   }
+
+   #contatos_loja{
+    padding-top: 5vh;
+    color: white;
+    /* background-color: red; */
+   }
+
+   #redes_sociais{
+    display: flex;
+    height: 5vh;
+    gap: 8px;
+    /* background-color: blue; */
+   }
+
+   .circulo_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 4vh;
+    display: flex;
+    background-color: green;
+    border: solid, 1px;
+    border-color: white;
+    color: white;
+    border-radius: 50px;
+   }
+
+   .circulo_redes a{
+    font-size: 20px;
+    color: white;
+   }
+
+   .circulo_redes a:hover{
+        transform: rotate(20deg);
+        transition: transform 0.1s ease-in-out;
+    }
+   
+
+   #contatos_cliente{
+    width: 35%;
+    /* background-color: aqua; */
+   }
+
+   #info_cli{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    width: 100%;
+    /* background-color: red; */
+   }
+
+   #info_clie{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    width: 100%;
+    /* background-color: red; */
+   }
+
+   #info_clie input{
+    /* background-color: yellow; */
+    height: 5vh;
+    width: 17vw;
+   }
+
+   #info_cli input{
+    /* background-color: yellow; */
+    height: 5vh;
+    width:100%;
+   }
+
+   #info_cli textarea{
+    width: 100%;
+    height: 25vh;
+   }
+
+   #info_cli button{
+        height: 6vh;
+        border-radius: 50px;
+        width: 25%;
+        color: white;
+        background-color: green;
+        border: none;
+   }
+
+   #map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+   }
+
+   #mapa{
+    width: 62%;
+    /* background-color: blanchedalmond; */
+   }
+
+   #mapa iframe{
+    width: 100%;
+   }
+
+   #secao_final{
+    height: 40vh;
+    background-color: #121212;
+   }
+
+   #partes{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    height:30vh;
+    width:100%;
+   }
+
+   #divisorias{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 62%;
+    height: 30vh;
+    /* background-color: antiquewhite; */
+   }
+
+   #quadros{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 25vh;
+    padding-top: ;
+    /* background-color: yellow; */
+   }
+
+   #titulo_quadro{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: first baseline;
+    color: white;
+   }
+
+   .titulo_logo span{
+    color: orangered;
+   }
+
+   .titulo_logo{
+    color: green;
+   }
+
+   #conteudo_quadro{
+    width: 100%;
+    color: #878787;
+    height: 20vh;
+    /* background-color: aqua; */
+   }
+
+   #conteudo_quadro a{
+    text-decoration: none;
+    color: #878787;
+   }   
+
+   #redes_sociais_fim{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;    
+    height: 6vh;
+    width: 8vw;
+    /* background-color: red; */
+   }
+
+   .circulo_redes_fim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid, 1px, white;
+    background-color: #121212;
+    border-radius: 50px;
+    width: 23%;
+    height: 4vh;
+   }
+
+   .circulo_redes_fim:hover{
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+   }
+
+   .circulo_redes_fim i{
+    color: white;
+   }
+
+   .localizacao{
+    padding-bottom: 10px;
+   } 
+
+   #divisoa_linha_final{
+    display: flex;
+    justify-content: center;
+    height: 2vh;
+    /* background-color: aqua; */
+   }
+
+   #linha_final{
+    width: 97%;
+    height: 0.2vh;
+    background-color: #545454;
+   }
+
+   #copirigth{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    /* background-color: aqua; */
+   }
+
+   #marca_registrada{
+    display: flex;
+    color: #545454;
+    justify-content: space-between;
+    height: 5vh;
+    width: 62%;
+    /* background-color: yellow; */
+   }
+
+   #marca_registrada span{
+    color: white;
+   }
+
+   #distribuicao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   }
+
+   #distribuicao span{
+    color: white;
+   }
